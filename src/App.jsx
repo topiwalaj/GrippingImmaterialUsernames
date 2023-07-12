@@ -1,9 +1,14 @@
 import './App.css'
 
-export default function App() {
+export default function App({ name }) {
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
-    </main>
+    <div>
+      {name}'s React App ⚛️
+      <p>My List</p>
+      <ol>
+        <li>React</li>
+        <li>App</li>
+      </ol>
+    </div>
   )
 }
