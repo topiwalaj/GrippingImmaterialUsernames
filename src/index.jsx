@@ -4,7 +4,8 @@ import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App name="Jigi" />
-    <App name="Hello" />
+    <App />
+    {/*<App name="Jigi" />
+    <App name="Hello" />*/}
   </React.StrictMode>
 )

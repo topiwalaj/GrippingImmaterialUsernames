@@ -1,0 +1,15 @@
+.bulb {
+  border: 1px solid black;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 2.5vw;
+}
+
+.on {
+  background-color: yellow;
+  filter: blur(0.5vw);
+}
+
+.off {
+  background-color: white;
+}
